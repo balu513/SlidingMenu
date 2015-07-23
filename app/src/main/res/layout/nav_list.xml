@@ -36,7 +36,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="30dp"
             android:layout_toRightOf="@+id/iv_profileimg"
-            android:textSize="20dp"
+            android:textSize="17dp"
             android:ems="9"
             android:textColor="@android:color/black"
             android:text="Profile" />
@@ -67,7 +67,7 @@
             android:layout_marginLeft="30dp"
             android:textColor="@android:color/black"
             android:layout_toRightOf="@+id/iv_viewpayslip"
-            android:textSize="20dp"
+            android:textSize="17dp"
             android:ems="4"
             android:text="Payslips" />
     </RelativeLayout>
@@ -95,7 +95,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="30dp"
             android:layout_toRightOf="@+id/iv_changepwd"
-            android:textSize="20dp"
+            android:textSize="17dp"
             android:ems="8"
             android:textColor="@android:color/black"
             android:text="Change password" />
@@ -125,7 +125,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="30dp"
             android:layout_toRightOf="@+id/iv_logout"
-            android:textSize="20dp"
+            android:textSize="17dp"
             android:textColor="@android:color/black"
             android:ems="6"
 
