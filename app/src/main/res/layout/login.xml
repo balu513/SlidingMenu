@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff1e1e1e">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--<ImageView-->
+                <!--android:id="@+id/radioImage"-->
+                <!--android:layout_width="@dimen/radio_img_width"-->
+                <!--android:layout_height="@dimen/radio_image_height"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_marginTop="50dp"-->
+                <!--android:src="@drawable/imgone" />-->
+
+            <TextView
+                android:id="@+id/loginTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioImage"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="140dp"
+                android:text="Payslips"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/title_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvline_logintitle"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_alignLeft="@+id/loginTitle"
+                android:layout_alignRight="@+id/loginTitle"
+                android:layout_below="@+id/loginTitle"
+                android:background="@drawable/header_img"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:id="@+id/et_empid_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvline_logintitle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                android:background="#ff2e2e2e"
+                android:textColorHint="@color/light_gray"
+                android:singleLine="true"
+                android:hint="Employee Id"
+                android:padding="@dimen/et_loginEmail_padding"
+                android:textColor="#ffa7a7a7"
+                android:textSize="@dimen/nor_text_size" />
+
+            <EditText
+                android:id="@+id/et_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_empid_login"
+                android:layout_marginBottom="@dimen/et_loginPwd_marginbottom"
+                android:layout_marginLeft="@dimen/et_loginPwd_marginleft"
+                android:layout_marginRight="@dimen/et_loginPwd_marginright"
+                android:layout_marginTop="@dimen/et_loginPwd_margintop"
+                android:background="#ff2e2e2e"
+                android:textColorHint="@color/light_gray"
+                android:hint="Password"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                android:padding="@dimen/et_loginEmail_padding"
+                android:textColor="#ffa7a7a7"
+                android:textSize="@dimen/nor_text_size"></EditText>
+
+
+
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_pwd"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/btn_login_margintop"
+                android:background="@drawable/nor_btn_bg_selector"
+                android:paddingBottom="@dimen/btn_login_paddingbottom"
+                android:paddingLeft="@dimen/btn_login_paddingleft"
+                android:paddingRight="@dimen/btn_login_paddingright"
+                android:paddingTop="@dimen/btn_login_paddingtop"
+                android:text="Login"
+                android:onClick="login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/nor_text_size" />
+
+            <TextView
+                android:id="@+id/tvline_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_alignLeft="@+id/btn_login"
+                android:layout_alignRight="@+id/btn_login"
+                android:layout_below="@+id/btn_login"
+                android:background="#ffff4069"
+                android:textSize="@dimen/nor_text_size" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

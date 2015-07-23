@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff1e1e1e" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <!--<ImageView-->
+                <!--android:id="@+id/radioImage"-->
+                <!--android:layout_width="@dimen/radio_img_width"-->
+                <!--android:layout_height="@dimen/radio_image_height"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_marginTop="35dp"-->
+                <!--android:background="@drawable/imgtwo" />-->
+
+            <TextView
+                android:id="@+id/pwd_chnge_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioImage"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="140dp"
+                android:text="AFBB PAYSLIPS"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/title_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvline_pwd_chnge_title"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_alignLeft="@+id/pwd_chnge_title"
+                android:layout_alignRight="@+id/pwd_chnge_title"
+                android:layout_below="@+id/pwd_chnge_title"
+                android:background="@drawable/profileone"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:id="@+id/et_oldpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvline_pwd_chnge_title"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                android:background="#ff2e2e2e"
+                android:hint="Old Password"
+                android:inputType="textPassword"
+                android:textColorHint="@color/light_gray"
+                android:padding="3dp"
+                android:textColor="#ffa7a7a7"
+                android:textSize="@dimen/nor_text_size" />
+
+            <EditText
+                android:id="@+id/et_newpwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_oldpassword"
+                android:layout_margin="20dp"
+                android:background="#ff2e2e2e"
+                android:hint="New Password"
+                android:inputType="textPassword"
+                android:textColorHint="@color/light_gray"
+                android:padding="3dp"
+                android:textColor="@color/light_gray"
+                android:textSize="@dimen/nor_text_size" />
+
+            <EditText
+                android:id="@+id/et_empid_changepwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_newpwd"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#ff2e2e2e"
+                android:hint="Employee Id"
+                android:textColorHint="@color/light_gray"
+                android:padding="3dp"
+                android:textColor="#ffa7a7a7"
+                android:textSize="@dimen/nor_text_size" />
+
+            <RelativeLayout
+                android:id="@+id/loutSignup_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_empid_changepwd"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/btn_pwdchange_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/nor_btn_bg_selector"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="5dp"
+                    android:text="Change Password"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/nor_text_size" />
+
+                <TextView
+                    android:id="@+id/tvline_signup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_alignLeft="@+id/btn_pwdchange_submit"
+                    android:layout_alignRight="@+id/btn_pwdchange_submit"
+                    android:layout_below="@+id/btn_pwdchange_submit"
+                    android:background="#ffff4069"
+                    android:textSize="@dimen/nor_text_size" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

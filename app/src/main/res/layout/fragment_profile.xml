@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.afbb.balakrishna.playslipproj.fragments.ProfileFragment">
+
+    <ImageView
+        android:id="@+id/iv_profile_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/profile"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_profile_img"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:text="profile name" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_profile_dept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_profile_name"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:text="Department" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_profile_designation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_profile_dept"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:text="Designation" />
+
+    <RelativeLayout
+        android:id="@+id/loutSignup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_profile_designation"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_pwdchange_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nor_btn_bg_selector"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:text="Change Password"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/nor_text_size" />
+
+        <TextView
+            android:id="@+id/tvline_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_alignLeft="@+id/btn_pwdchange_submit"
+            android:layout_alignRight="@+id/btn_pwdchange_submit"
+            android:layout_below="@+id/btn_pwdchange_submit"
+            android:background="#ffff4069"
+            android:textSize="@dimen/nor_text_size" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

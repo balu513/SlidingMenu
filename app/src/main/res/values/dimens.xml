@@ -1,0 +1,88 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <integer name="num_cols">1</integer>
+
+
+    <dimen name="padding">16dp</dimen>
+    <dimen name="listview_item_padding">16dp</dimen>
+    <dimen name="iv_width_height">35dp</dimen>
+    <dimen name="textpad">5dp</dimen>
+
+
+    <dimen name="logintitlebar_height">50dp</dimen>
+    <dimen name="reg_field">15sp</dimen>
+
+
+    <!-- channel icon -->
+    <dimen name="channelIconWidth">45dp</dimen>
+    <dimen name="channekIconHeight">45dp</dimen>
+    <!-- sub channel icon -->
+    <dimen name="subchannelIconWidth">30dp</dimen>
+    <dimen name="subchannekIconHeight">30dp</dimen>
+    <dimen name="nor_text_size">17sp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="title_text_size">22sp</dimen>
+    <dimen name="spinner_height">33sp</dimen>
+
+    <!-- radio image dimensions on login  screen -->
+    <dimen name="radio_img_width">150dp</dimen>
+    <dimen name="radio_image_height">100dp</dimen>
+    <dimen name="radio_image_margintop">20sp</dimen>
+
+    <!-- channel icons width and height -->
+    <dimen name="icon_width">50sp</dimen>
+    <dimen name="icon_height">45sp</dimen>
+    <dimen name="cat_view_height">40sp</dimen>
+    <dimen name="title_height">45sp</dimen>
+    <dimen name="title_above_height">43sp</dimen>
+    <dimen name="navigation_drawer_width">230sp</dimen>
+    <dimen name="album_image_height">150sp</dimen>
+    <dimen name="recordingTimingsDiaHeight">150dp</dimen>
+    <dimen name="pro_img_width">45sp</dimen>
+
+    <!-- signup screen -->
+    <dimen name="zerodp">0dp</dimen>
+    <dimen name="signup_tv_login_padding">10dp</dimen>
+    <dimen name="signup_loutline_height">1.5dp</dimen>
+    <dimen name="signup_layout_marging_left">5dp</dimen>
+    <dimen name="signup_layout_marging_right">5dp</dimen>
+    <dimen name="signup_layout_marging_top">15dp</dimen>
+    <dimen name="signup_layout_height">40dp</dimen>
+    <dimen name="signup_layoutbdaydrops_height">40dp</dimen>
+    <dimen name="signup_spinner_bday_margin_left">3dp</dimen>
+    <dimen name="signup_loutfavans_margin_top">5dp</dimen>
+    <dimen name="signup_rg_gender_margin_top">10dp</dimen>
+    <dimen name="signup_radiofemale_margin_left">20dp</dimen>
+    <dimen name="signup_ivprofilepic_width_height">100dp</dimen>
+    <dimen name="signup_tvtemsnconditons_margin_left">3dp</dimen>
+    <dimen name="signup_signuplout_layout_marging_bottom">30dp</dimen>
+    <dimen name="signup_signuplout_layout_marging_top">15dp</dimen>
+    <dimen name="signup_signupbutton_padding_top">5dp</dimen>
+    <dimen name="signup_signupbutton_padding_bottom">5dp</dimen>
+    <dimen name="signup_signupbutton_padding_left">40dp</dimen>
+    <dimen name="signup_signupbutton_padding_right">40dp</dimen>
+    <dimen name="signup_signupbutton_bottomline_height">2dp</dimen>
+    <dimen name="signup_et_marginleft">15dp</dimen>
+    <dimen name="spinnerbday_year_margin_left">3dp</dimen>
+
+    <!-- login screen -->
+    <dimen name="et_loginEmail_padding">3dp</dimen>
+    <dimen name="btn_login_paddingleft">40dp</dimen>
+    <dimen name="btn_login_paddingright">40dp</dimen>
+    <dimen name="btn_login_paddingtop">8dp</dimen>
+    <dimen name="btn_login_paddingbottom">8dp</dimen>
+    <dimen name="radioImage_margintop">15dp</dimen>
+    <dimen name="et_loginPwd_marginleft">20dp</dimen>
+    <dimen name="et_loginPwd_marginright">20dp</dimen>
+    <dimen name="et_loginPwd_margintop">20dp</dimen>
+    <dimen name="et_loginPwd_marginbottom">20dp</dimen>
+    <dimen name="btn_login_margintop">35dp</dimen>
+</resources>

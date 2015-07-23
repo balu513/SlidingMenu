@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cyan" >#16FAEB</color>
+    <color name="red" >#D68484</color>
+    <color name="yellow">#fffe2794</color>
+    <color name="green">#04B404</color>
+    <color name="gray">#E7EBEC</color>
+
+    <color name="orange1">#ffdc4a38</color>
+    <color name="orange">#ff3b5998</color>
+    <color name="black_lyt">#ff2e2e2e</color>
+    <color name="pink_red">#ffd50c36</color>
+    <color name="halfwhite">#ffff4069</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="lightblack">#ff646464</color>
+    <color name="mediumblack">#ff2c2c2c</color>
+    <color name="ttle_bg_color">#ffd50c36</color>
+    <color name="bottom_color">#ff2c2c2c</color>
+    <color name="list_even_color">#ffeeeeee</color>
+    <color name="list_odd_color">#fff9f9f9</color>
+    <color name="white">#ffffffff</color>
+    <color name="nor_btn_focus_color">#ff646464</color>
+    <color name="light_gray">#ffc8c8c8</color>
+    <color name="black_lyt2">#ff1e1e1e</color>
+    <color name="cream_white">#ffeeeeee</color>
+    <color name="ash_white">#ffdcdcdc</color>
+    <color name="button_sp_color">#ff969696</color>
+    <color name="drawer_bg_color">#ff323232</color>
+    <color name="drawer_first_item">#ff464646</color>
+    <color name="login_btn_txt_color">#ff696969</color>
+    <color name="transperent_black">#14000000</color>
+
+    <color name="lightgreen">#ff7bae34</color>
+    <color name="termstext">#ff808080</color>
+    <color name="login_btn_focus">#ff4b6d20</color>
+
+</resources>
